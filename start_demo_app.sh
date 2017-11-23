@@ -13,9 +13,7 @@ ssl_enabled=false
 #preferred docker image name 
 image_name=appdynamics/demo_docker_app
 
-
 if [ -z "$host_name" ] || [ -z "$access_key" ] || [ -z "$port_number" ] || [ -z "$account_name" ] || [ -z "$sim_enabled" ] || [ -z "$ssl_enabled" ]; then
-
  echo "Please assign values to the above variables.. Exiting"
  sleep 4s
  exit 1  
