@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# This is a script to start the demo App on Docker 
-
+# This is a script to start the Demo App on Docker 
 # Set variables
-#host_name=docker.for.mac.localhost 
-host_name=192.168.33.17
-access_key=f65b8136-e1fa-4d48-995c-ca46737394d8
+#host_name=docker.for.mac.localhost #use this if your controller is running from a mac docker host
+host_name=
+access_key=
 port_number=8090
 account_name=customer1
 sim_enabled=true
@@ -20,7 +19,6 @@ if [ -z "$host_name" ] || [ -z "$access_key" ] || [ -z "$port_number" ] || [ -z 
  echo "Please assign values to the above variables.. Exiting"
  sleep 4s
  exit 1  
- 
 fi   
  
 # Pull images
