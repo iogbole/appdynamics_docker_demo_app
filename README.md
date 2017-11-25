@@ -47,7 +47,7 @@ Wait about 2 - 5 minutes and confirm that all agents are reporting to your contr
 
 ## Enable Heatmaps
 * Goto the admin.jsp of your Controller
-* Login with Password ```Appdynamics123```
+* Login with your  ```root``` password
 * Goto ```Account Settings```
 * Edit Account ```customer1```
 * Add additional property
