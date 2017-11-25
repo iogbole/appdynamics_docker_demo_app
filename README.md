@@ -1,4 +1,4 @@
-# Appdynamics Docker Demo App: 
+# Appdynamics Docker Demo App
 
 This example app contain preconfigured AppDynamics: 
 
