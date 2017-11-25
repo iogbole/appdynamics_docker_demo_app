@@ -21,9 +21,7 @@ This example app contain preconfigured AppDynamics:
 
 That's it!
 
-Wait about 2 - 5 and confirm that all agents are reporting to your controller. 
-
-Most business transactions are automatically detected. 
+Wait about 2 - 5 minutes and confirm that all agents are reporting to your controller. Most business transactions are automatically detected. 
 
 ## Docker Visibility 
 <img width="1389" alt="container" src="https://user-images.githubusercontent.com/2548160/33232248-9627b838-d1fa-11e7-8ed6-32e1c3a3fff0.png">
