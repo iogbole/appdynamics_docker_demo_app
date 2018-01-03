@@ -25,7 +25,7 @@ sleep 2s
 docker pull iogbole/appdynamics_demo_app
 
 # build the image 
-echo  "Building the your $image_name image..."
+echo  "Building your $image_name image..."
 sleep 2s
 
 docker build --build-arg access_key=${access_key} \
